@@ -1,0 +1,17 @@
+[  373.399114] Call Trace:
+[  373.399157]  [<c13ab85f>] dump_stack+0x58/0x79
+[  373.399215]  [<c1170220>] panic+0x81/0x1af
+[  373.399270]  [<c107020e>] __stack_chk_fail+0x1e/0x20
+[  373.399367]  [<f868e915>] ? l2cap_config_rsp+0x585/0x590 [bluetooth]
+[  373.399479]  [<f868e915>] l2cap_config_rsp+0x585/0x590 [bluetooth]
+[  373.399556]  [<c1098790>] ? wake_up_q+0x70/0x70
+[  373.399612]  [<c10a0004>] ? detach_task_cfs_rq+0x164/0x540
+[  373.399684]  [<c16a52b5>] ? skb_dequeue+0x45/0x60
+[  373.399771]  [<f865b9a0>] ? hci_rx_work+0x2a0/0x3d0 [bluetooth]
+[  373.399843]  [<c1029301>] ? __switch_to+0x181/0x500
+[  373.399904]  [<c1087881>] ? process_one_work+0x121/0x3f0
+[  373.399969]  [<c1087b87>] ? worker_thread+0x37/0x490
+[  373.400030]  [<c1087b50>] ? process_one_work+0x3f0/0x3f0
+[  373.400095]  [<c108d036>] ? kthread+0xa6/0xc0
+[  373.400151]  [<c17b8a89>] ? ret_from_kernel_thread+0x21/0x38
+[  373.400219]  [<c108cf90>] ? kthread_create_on_node+0x170/0x170
